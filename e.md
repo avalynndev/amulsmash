@@ -143,3 +143,36 @@ img = cv2.imread('asda.jpg')
 cv2.imshow('Grayscale Image', img)
 cv2.waitKey(0)
 ```
+
+Question 14: plot a point
+```py
+import cv2
+import matplotlib.pyplot as plt
+
+img = cv2.imread('asda.jpg') 
+plt.plot(500,22,marker="*",markersize=23)
+plt.imshow(img)
+plt.show()
+```
+
+Question 15: plot a line
+```py
+import cv2
+import matplotlib.pyplot as plt
+
+img = cv2.imread('asda.jpg') 
+plt.plot(500,22,marker="*",markersize=23)
+plt.imshow(img)
+plt.show()
+```
+
+Question 16: plot two lines intersecting each other
+```py
+import cv2
+import matplotlib.pyplot as plt
+
+img = cv2.imread('asda.jpg') 
+plt.plot([100,400],[500,100],[150,450],[100,400],marker="*",markersize=2)
+plt.imshow(img)
+plt.show()
+```
