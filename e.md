@@ -89,7 +89,7 @@ import matplotlib.pyplot as plt
 # Manual data setup
 labels = ('Python', 'Java', 'JavaScript', 'C#', 'PHP', 'C,C++', 'R')
 sizes = [29.9, 19.1, 8.2, 7.3, 6.2, 5.9, 3.7]
-plt.bar(labels,size)
+plt.bar(labels,sizes)
 # layout configuration
 plt.ylabel('Usage in %')
 plt.xlabel('Programming Languages')
