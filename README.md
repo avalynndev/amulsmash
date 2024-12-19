@@ -1,2 +1,1 @@
-# amulsmash
-pookie
+a repo so my pookie can cheat in exam #amulforlife
