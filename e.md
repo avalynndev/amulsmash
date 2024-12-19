@@ -30,6 +30,10 @@ e_list.insert(3,5)
 # adds number 5 at place value 3
 e_list.extend([1,4,6])
 # adds array to the end of list
+```
+
+Question 4: removing elements using pop and remove
+```py
 e_list.pop()
 # removes the last element
 e_list.pop(2)
@@ -82,8 +86,25 @@ plt.show()
 ```
 ![alt text](image.png)
 
+Question 9: line chart
+```py
+import matplotlib.pyplot as plt import pandas as pd
+height=[121.9,124.5,129.5,134.6,139.7,147.3,152.4,157.5,162.6]
+weight=[19.7,21.3,23.5,25.9,28.5,32.1,35.7,39.6,43.2]
+df=pd.DataFrame({"height":height,"weight":weight}) 
+#Set xlabel for the plot
+plt.xlabel('Weight in kg') 
+#Set ylabel for the plot 
+plt.ylabel('Height in cm') 
+#Set chart title:
+plt.title('Average weight with respect to average height') 
+#plot using marker'-*' and line colour as green 
+plt.plot(weight,height,marker='*',markersize=10,color='green ',linewidth=2, linestyle='dashdot')
+plt.show()
+```
 
-Question 9: bar chart 
+
+Question 10: bar chart 
 ```py
 import matplotlib.pyplot as plt
 # Manual data setup
@@ -99,7 +120,7 @@ plt.savefig('filename.png')
 plt.show()
 ```
 
-Question 10: pie chart
+Question 11: pie chart
 ```py
 import matplotlib.pyplot as plt
 
@@ -110,7 +131,7 @@ plt.pie(NUM,labels=Fruits,explode=myexplode, shadow = True)
 plt.show()
 ```
 
-Question 11: show image using cv
+Question 12: show image using cv
 ```py
 import cv2
 import matplotlib.pyplot as plt
@@ -123,7 +144,7 @@ plt.imshow(image)
 plt.show()
 ```
 
-Question 12: convert how image looks like
+Question 13: convert how image looks like
 ```py
 import cv2
 
@@ -135,7 +156,7 @@ plt.show()
 ```
 
 
-Question 13: wait for key to close
+Question 14: wait for key to close
 ```py
 import cv2
 
@@ -144,7 +165,7 @@ cv2.imshow('Grayscale Image', img)
 cv2.waitKey(0)
 ```
 
-Question 14: plot a point
+Question 15: plot a point
 ```py
 import cv2
 import matplotlib.pyplot as plt
@@ -155,7 +176,7 @@ plt.imshow(img)
 plt.show()
 ```
 
-Question 15: plot a line
+Question 16: plot a line
 ```py
 import cv2
 import matplotlib.pyplot as plt
@@ -166,7 +187,7 @@ plt.imshow(img)
 plt.show()
 ```
 
-Question 16: plot two lines intersecting each other
+Question 17: plot two lines intersecting each other
 ```py
 import cv2
 import matplotlib.pyplot as plt
