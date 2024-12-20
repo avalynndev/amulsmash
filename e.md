@@ -181,7 +181,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 img = cv2.imread('asda.jpg') 
-plt.plot(500,22,marker="*",markersize=23)
+plt.plot([100,400],[500,100],marker="*",markersize=23)
 plt.imshow(img)
 plt.show()
 ```
