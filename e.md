@@ -148,9 +148,9 @@ Question 13: convert how image looks like
 import cv2
 
 img=cv2.imread("asda.jpg")
-img_changed=cv2.cvtColor(img,cv2.COLOR_GRAY2RGB)
+img_changed=cv2.cvtColor(img,cv2.COLOR_RGB2GRAY)
 
-plt.imshow(img_changed)
+plt.imshow(img_changed,cmap='gray')
 plt.show()
 ```
 
